@@ -1,3 +1,12 @@
+/*
+
+   (c) 2014 Ian McMahon
+
+   This code is based on the connection pooling example by Ryan Day, detailed here:
+   http://www.ryanday.net/2012/09/12/golang-using-channels-for-a-connection-pool/
+
+ */
+
 package pool
 
 type InitFunction func() (interface{}, error)
